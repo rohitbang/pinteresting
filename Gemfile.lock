@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/twbs/bootstrap-sass.git
+  revision: a46d95016dd727a198ed2120c9ce4e8b2cf5e0f3
+  specs:
+    bootstrap-sass (3.2.0.0)
+      sass (~> 3.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -113,6 +120,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass!
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
